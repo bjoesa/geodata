@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="umriss" id="umriss">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="name_en" type="string"></SimpleField>
+</Schema>
+<Folder><name>umriss</name>
+  <Placemark>
+	<name>Umriss</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#umriss">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="name_en">outline</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>10.0166242158374,53.5539272300508 10.0166247590087,53.5539277118481 10.0166247590087,53.5539277118481 10.0169310331746,53.554071889856 10.016926610443,53.5540856836259 10.0171035197085,53.5541641766601 10.0173124937784,53.5540016072438 10.0169592280888,53.553843963577 10.0169465127354,53.5538528310488 10.0167961398597,53.5537871460281 10.0166242158374,53.5539272300508</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
