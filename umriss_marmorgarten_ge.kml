@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="root_doc">
+	<name>umriss_marmorgarten.kml</name>
+	<Schema name="umriss" id="umriss">
+		<SimpleField type="float" name="id"></SimpleField>
+		<SimpleField type="string" name="name_en"></SimpleField>
+	</Schema>
+	<Folder>
+		<name>umriss</name>
+		<Placemark>
+			<name>Umriss</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#umriss">
+					<SimpleData name="id">1</SimpleData>
+					<SimpleData name="name_en">outline</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								10.0166242158374,53.55392723005081,0 10.0166247590087,53.5539277118481,0 10.0166247590087,53.5539277118481,0 10.0169310331746,53.554071889856,0 10.016926610443,53.5540856836259,0 10.0171035197085,53.5541641766601,0 10.0173124937784,53.5540016072438,0 10.0169592280888,53.553843963577,0 10.0169465127354,53.5538528310488,0 10.0167961398597,53.55378714602809,0 10.0166242158374,53.55392723005081,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
